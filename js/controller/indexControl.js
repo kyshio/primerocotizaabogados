@@ -506,7 +506,7 @@ if($cookies.get('user') && $cookies.get('psw') && $cookies.get('name') && $cooki
 
 }).controller('somosController', function ($scope, $location, $timeout) {
 
-  $timeout(function(){ deprec();$location.path('/login'); }, 10000);
+  
 
 
 }).controller('OppsController', function ($scope, $location, $timeout) {
